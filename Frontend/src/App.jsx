@@ -10,7 +10,7 @@ import Profile from './components/Profile';
 import QuizTaking from './components/QuizTakingPage';
 import QuizResults from './components/QuizResult';
 import Leaderboard from './components/Leaderboard';
-import { QuizProvider } from './contexts/QuizContext';
+import { QuizProvider } from '@/contexts/QuizContext';
 import TestAuth from './components/TestAuth';
 
 const App = () => {
