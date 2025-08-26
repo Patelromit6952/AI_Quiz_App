@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://ai-quiz-app-ew0j.onrender.com/api';
 
 // Create axios instance with default config
 const api = axios.create({
