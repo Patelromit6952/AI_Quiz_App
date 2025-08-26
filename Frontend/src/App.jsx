@@ -10,8 +10,8 @@ import Profile from './components/Profile';
 import QuizTaking from './components/QuizTakingPage';
 import QuizResults from './components/QuizResult';
 import Leaderboard from './components/Leaderboard';
-import { QuizProvider } from '@/contexts/QuizContext';
-import TestAuth from './components/TestAuth';
+import { QuizProvider } from './Contexts/QuizContext';
+// import TestAuth from './components/TestAuth';
 
 const App = () => {
   const { user, loading } = useAuth();
@@ -37,7 +37,7 @@ const App = () => {
   return (
     <QuizProvider>
       {/* Debug component - remove in production */}
-      <TestAuth />
+      {/* <TestAuth /> */}
       
       <Routes>
         {/* Public Routes */}
