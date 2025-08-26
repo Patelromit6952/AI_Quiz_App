@@ -7,7 +7,7 @@ import QuizBrowser from './components/QuizBrowser';
 import MySubmissions from './components/MySubmissions';
 import QuizGenerator from './components/QuizGenerator';
 import Profile from './components/Profile';
-import QuizTaking from './components/QuizTakingPsge';
+import QuizTaking from './components/QuizTakingPage';
 import QuizResults from './components/QuizResult';
 import Leaderboard from './components/Leaderboard';
 import { QuizProvider } from './contexts/QuizContext';
